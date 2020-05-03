@@ -21,14 +21,37 @@
     color: grey;
 }
 .card img{
-    width: 200px;
+    width: 250px;
 }
 .card{
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px 10px whitesmoke;
 }
 .card-footer{
     background-color: white;
     border-top: none;
+}
+.cat1{
+    text-align: center;
+}
+#border-slice{
+border-bottom: 7px solid;
+border-image: linear-gradient( 100deg,orange,tomato);
+border-image-slice: 1;
+
+}
+.container{
+    margin-bottom: 100px;
+}
+.box{
+    background-color: white;
+    box-shadow: 5px 5px 10px whitesmoke;
+    border-radius: 20px 2px 20px 2px;
+    padding: 10px 30px;
+    height: 250px;
+    margin-bottom: 100px;
+}
+.img-width{
+    width: 600px;
 }
